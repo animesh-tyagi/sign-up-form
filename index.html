@@ -19,16 +19,42 @@
     <div class="info">
         
         <div class="text">
-            <p>This is not a real online service! You know you need something like this in your life to help you realized your deepest dreams.</p>
-            <p>Sign up <i>now</i> to get started.</p>
-            <p>You <i>know</i> you want to.</p>
+            <p class="fir">This is not a real online service! You know you need something like this in your life to help you realized your deepest dreams.<br> Sign up <i>now</i> to get started.</p>
+            <p class="sec">You <i>know</i> you want to.</p>
         </div>
         <div class="signup">
             <p>Let's do this!</p>
+            <form method="post">
+                <div class="frm">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" name="first_name" id="first_name">
+                </div>
+                <div class="frm">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
+                <div class="frm">
+                    <label for="email_id">EMAIL</label>
+                    <input type="email" name="email_id" id="email_id">
+                </div>
+                <div class="frm">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="number" name="phone_number" id="phone_number">
+                </div>
+                <div class="frm">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="frm">
+                    <label for="first_name">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm_password" id="confirm_password">
+                </div>
+
+            </form>
 
         </div>
         <div class="end">
-            <button>Create Account</button>
+            <button type="submit">Create Account</button>
             <p>Already have an account? <a href="./index.html">Log in</a></p>
 
         </div>

@@ -9,6 +9,7 @@ body {
     flex: 1;
     margin: 0;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .images {
@@ -46,5 +47,97 @@ body {
     flex: 2 1 0;
     margin: 0;
     flex-direction: column;
+    justify-content: center;
 }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 40px;
+    padding-right: 350px;
+}
+
+.fir {
+    margin-bottom: 0px;
+}
+
+.signup {
+    display: flex; 
+    flex-direction: column;
+    padding-left: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.signup p {
+    font-size: 25px;
+    padding-left: 20px;
+    font-weight: 550;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.frm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 100px;
+}
+
+.frm label {
+    color:rgb(77, 77, 77);
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.frm input {
+    appearance: none; 
+    outline: none;
+    box-shadow: none;
+    font-size: 15px;
+    padding: 4px 6px;
+    width: 250px;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #2e67da;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+input:invalid {
+    border-color: #b92e2e;
+}
+
+.end {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+button {
+    appearance: none;
+    border: none;
+    color: white;
+    background-color: #596D48;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 550;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 800;
+}
+
+
+
 
